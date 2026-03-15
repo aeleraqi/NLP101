@@ -1,39 +1,41 @@
-# 📚 NLP 101: Natural Language Processing with Python
+# NLP 101 🤖📝
 
-Welcome to **NLP 101**, a beginner-friendly notebook designed to introduce core NLP concepts using Python. Whether you're just getting started with NLP or looking to refine your skills, this project will help you explore the building blocks of text processing, tokenization, and word frequency analysis.
+[![Language](https://img.shields.io/badge/Language-Python%20%7C%20Jupyter-blue)](https://github.com/aeleraqi/NLP101)
+[![Stars](https://img.shields.io/github/stars/aeleraqi/NLP101?style=social)](https://github.com/aeleraqi/NLP101/stargazers)
 
-## 🌟 Features
+A beginner-friendly Jupyter notebook series introducing core **Natural Language Processing** concepts using Python.
 
-- **Library Setup**: Step-by-step instructions to install key libraries like `nltk`, `spacy`, and more.
-- **Tokenization**: Learn how to split raw text into tokens (words or sentences) for deeper analysis.
-- **Word Frequency**: Discover methods for identifying the most frequently occurring words in a given text.
-- **Text Preprocessing**: Clean and prepare text for further analysis by removing stop words, punctuation, and more.
-- **Hands-on Exercises**: Practical tasks to reinforce each concept with real-world data.
+## 📖 About
 
-## 🔗 Open in Colab
+**NLP 101** demystifies natural language processing for beginners with no prior background in AI or linguistics. Each notebook builds on the previous, taking you from raw text to practical NLP applications.
 
-Click the badge below to run this notebook directly in Google Colab:
+## 📂 Notebooks
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aeleraqi/NLP101/blob/main/NLP101.ipynb)
+| Notebook | Topic |
+|----------|-------|
+| 01 | Text basics — cleaning, tokenization, normalization |
+| 02 | Stop words, stemming, and lemmatization |
+| 03 | Bag of Words and TF-IDF |
+| 04 | Sentiment analysis |
+| 05 | Named Entity Recognition (NER) |
+| 06 | Text classification |
+| 07 | Introduction to word embeddings |
 
-## 🛠️ Setup & Installation
-
-To run the notebook locally, you’ll need to install the following libraries:
+## 🚀 Getting Started
 
 ```bash
-pip install nltk
-pip install spacy
-# Add any other dependencies here
+git clone https://github.com/aeleraqi/NLP101.git
+cd NLP101
+pip install -r requirements.txt
+jupyter notebook
+```
 
+## 🧰 Requirements
 
-## 🤝 Contributing
+- Python 3.8+
+- NLTK, spaCy, scikit-learn, pandas
 
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the project.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a pull request.
-
-
+---
+**Author:** [Amr Eleraqi](https://github.com/aeleraqi) — Data Analyst | NLP Specialist | Machine Learning Expert | Educator  
+**Affiliation:** Toronto Metropolitan University, Ontario, Canada  
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0003--0935--0026-brightgreen)](https://orcid.org/0000-0003-0935-0026) [![GitHub](https://img.shields.io/github/followers/aeleraqi?label=Follow&style=social)](https://github.com/aeleraqi)
